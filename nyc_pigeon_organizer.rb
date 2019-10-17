@@ -8,7 +8,8 @@ def nyc_pigeon_organizer(data)
         end
         if new_hash[name][color_gender_live]==nil 
           new_hash[name][color_gender_live]=[]
-          
+        end
+      new_hash[name][color_gender_live].push(stats.to_s)    
     end
     end
   end
