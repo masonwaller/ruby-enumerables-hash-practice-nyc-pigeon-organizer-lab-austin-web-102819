@@ -6,7 +6,8 @@ def nyc_pigeon_organizer(data)
         if new_hash[name] == nil 
           new_hash[name] = {}
         end
-        if new_hash[name][]
+        if new_hash[name][color_gender_live]==nil 
+          new_hash[name][color_gender_live]=[]
           
     end
     end
