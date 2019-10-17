@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each do |color_gender_live, value| 
     value.each do |stats, names|
       names.each do |name|
-        if new_hash[name]
+        if new_hash[name] == nil
           
     end
     end
