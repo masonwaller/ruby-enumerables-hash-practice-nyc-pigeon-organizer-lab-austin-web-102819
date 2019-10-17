@@ -5,4 +5,5 @@ def nyc_pigeon_organizer(data)
     if new_hash[bird]
       data
     end
+  end
 end
